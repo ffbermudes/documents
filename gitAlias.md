@@ -1,5 +1,7 @@
 # Configurando Alias no git
 
+[Voltar](./README.md)
+
 ## Abrir/definir o editor do Git no VS Code
 
 Para definir o VS Code como editor padrão do Git, execute no terminal:
@@ -41,6 +43,7 @@ Exemplo de `.gitconfig` final:
   editor = code --wait
 
 [alias]
-  s = status -s
-  c = add --all && git commit -m
+  s = !git status -s
+  c = !git add --all && git commit -m
+  l = !git log --pretty=format:'%C(blue)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
 ```
