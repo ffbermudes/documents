@@ -7,6 +7,16 @@
 O padrão dos commits será seguindo o modelo convencional commits
 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
+## Instalação de dependências
+
+- Iniciar o projeto node
+
+  -Y garante que seja criado o packet.json com valores padrão
+
+```bash
+npm init -y
+```
+
 - Dependência para garantir padrão de commits
 
 ```bash
